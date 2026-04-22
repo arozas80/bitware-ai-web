@@ -8,7 +8,7 @@ function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#05050A]">
       {/* Gradient Orbs */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl animate-pulse delay-1000" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl animate-pulse anim-delay-1000" />
       
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
         <div className="animate-fade-in-up">
@@ -17,7 +17,7 @@ function Hero() {
           </span>
         </div>
 
-        <h1 className="animate-fade-in-up delay-100 text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent">
+        <h1 className="animate-fade-in-up anim-delay-100 text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent">
           Automatizamos tu negocio
           <br />
           <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
@@ -25,12 +25,12 @@ function Hero() {
           </span>
         </h1>
 
-        <p className="animate-fade-in-up delay-200 text-xl md:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto">
+        <p className="animate-fade-in-up anim-delay-200 text-xl md:text-2xl text-gray-400 mb-10 max-w-3xl mx-auto">
           Implementamos Agentes IA, Chatbots y automatizaciones que eliminan el trabajo repetitivo,
           reducen errores y escalan tu operación sin aumentar personal.
         </p>
 
-        <div className="animate-fade-in-up delay-300 flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="animate-fade-in-up anim-delay-300 flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#contacto"
             className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg shadow-blue-500/25"
@@ -46,7 +46,7 @@ function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="animate-fade-in-up delay-500 grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
+        <div className="animate-fade-in-up anim-delay-500 grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
           {[
             { value: '24/7', label: 'Soporte Activo' },
             { value: '-80%', label: 'Errores Operativos' },
@@ -181,7 +181,7 @@ function Process() {
         </div>
 
         {/* Results Box */}
-        <div className="animate-fade-in-up delay-400 mt-20 p-8 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-2xl border border-blue-500/30">
+        <div className="animate-fade-in-up anim-delay-400 mt-20 p-8 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-2xl border border-blue-500/30">
           <h3 className="text-2xl font-bold text-white mb-6 text-center">Resultados Típicos - Primeros 30 días</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
@@ -359,7 +359,7 @@ function Contact() {
           </a>
         </div>
 
-        <div className="animate-fade-in-up delay-200 p-8 bg-white/5 rounded-2xl border border-white/10">
+        <div className="animate-fade-in-up anim-delay-200 p-8 bg-white/5 rounded-2xl border border-white/10">
           <h3 className="text-2xl font-bold text-white mb-6 text-center">Cuéntanos tu desafío</h3>
           
           <form className="space-y-6">
